@@ -1,0 +1,128 @@
+Program 5:
+A string is an almost-palindrome if, by changing(replacing) only one character, you can make it a palindrome. Create a function that returns True if a string is an almost-palindrome and False otherwise.
+
+Return False if the string is already a palindrome.
+
+You cannot remove a character only replace
+
+Expected Output:
+
+Enter the String - engage
+
+False
+
+Enter the String - abcdcbg
+
+True
+
+
+
+
+
+Program 6:
+
+Create a function that takes in two words as input and returns a list of three elements, in the following order:
+
+·         Shared letters between two words.
+
+·         Letters unique to word 1.
+
+·         Letters unique to word 2.
+
+Each element should have unique letters, and have each letter be alphabetically sorted.
+
+Both words will be in lower case.
+
+If an element contains no letters, return an empty string
+
+Even with multiple matching character there should be only 1 exist in the unique group
+
+Expected Output:
+
+Enter the 1st String - sharp
+
+Enter the 1st String - soap
+
+['aps', 'hr', 'o']
+
+Enter the 1st String - board
+
+Enter the 1st String - bored
+
+['bdor', 'a', 'e']
+
+Enter the 1st String - match
+
+Enter the 1st String - ham
+
+
+['ahm', 'ct', '']
+
+
+
+
+
+Program 7:
+
+Create a function that splits a string into an array of identical clusters
+
+Each cluster should only have one unique character
+
+The resulting array should be in the same order as the input string
+
+Logic should work with letters, numbers and characters
+
+Expected Output:
+
+Enter the String - 555
+
+['555']
+
+Enter the String - 5556667788
+
+['555', '666', '77', '88']
+
+Enter the String - aaabbbaabbab
+
+['aaa', 'bbb', 'aa', 'bb', 'a', 'b']
+
+Enter the String - abbbcc88999&&!!!_
+
+
+['a', 'bbb', 'cc', '88', '999', '&&', '!!!', '_']
+
+
+
+
+
+Program 8:
+
+Create a function that takes a list of items and checks if the last item matches the rest of the list.
+
+Expected Output:
+
+Enter the No of elements to add to the List - 3
+
+Enter the element - rsq
+
+Enter the element - 6hi
+
+Enter the element - rsq6hi
+
+True
+
+ 
+
+Enter the No of elements to add to the List - 4
+
+Enter the element - Anu
+
+Enter the element - sai
+
+Enter the element - Sri
+
+Enter the element - AnuSri
+
+
+False
+
